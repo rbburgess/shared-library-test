@@ -6,6 +6,7 @@ pipeline {
         steps{
             script {
                 helloWorld("Bob")
+                gitStatus()
             }
         }
     }
