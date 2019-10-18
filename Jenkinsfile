@@ -8,6 +8,8 @@ pipeline {
                 helloWorld("Bob")
                 gitStatus()
                 getVersion()
+                setVersion("1.149.27")
+                getVersion()
             }
         }
     }
