@@ -7,6 +7,7 @@ pipeline {
             script {
                 helloWorld("Bob")
                 gitStatus()
+                getVersion()
             }
         }
     }
