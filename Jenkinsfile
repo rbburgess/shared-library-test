@@ -3,7 +3,7 @@ pipeline {
   agent any
   stages {
     stage('Test') {
-        helloWorld('Bob')
+        helloWorld("Bob")
     }
 
   }
