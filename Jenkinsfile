@@ -10,6 +10,7 @@ pipeline {
                 getVersion()
                 setVersion("1.149.27")
                 getVersion()
+                gitCommit("Updated version")
             }
         }
     }
